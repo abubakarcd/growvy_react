@@ -8,9 +8,9 @@ const ServicesMainSection = () => {
         {img:img2,h3:"E-commerce",p:"Drive expansion with targeted strategies and market-driven solutions."},{img:homesec4,h3:"Business",p:"Optimize and manage business resources with data-backed insights"}]
   return (
     <>
-      <div className="bg-green-200 rounded-b-[40%] py-16">
+      <div className="bg-green-200 rounded-b-[20%] py-10 md:py-16">
         <div className="container flex  flex-col  mx-auto justify-center items-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Services</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2 md:mb-4">Services</h2>
           <p className="text-gray-600 text-xs md:text-lg  mb-2 w-[70%]">
             At Growvy, we provide innovative, cost-effective solutions to help
             businesses and professionals thrive.

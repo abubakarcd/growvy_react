@@ -12,9 +12,11 @@ body {
 .logo{
   font-family: 'Parisienne', cursive; 
 }
-.growvy-pitch-container {
-    
-    border-top: 8px solid transparent; /* Create a transparent top border for spacing */
-    border-image: linear-gradient(to left, rgb(1, 131, 1) 20%, transparent 20%) 1 0 0 0;
-    border-image-slice: 1 0 0 0; 
+.gradient-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, yellow, green);
+  border-image-slice: 1;
+  border-radius: 8px; /* Optional rounded corners */
+  padding: 16px; /* Add space inside */
 }
+
