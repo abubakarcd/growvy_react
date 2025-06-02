@@ -16,7 +16,8 @@ body {
   border: 2px solid transparent;
   border-image: linear-gradient(to right, yellow, green);
   border-image-slice: 1;
-  border-radius: 8px; /* Optional rounded corners */
+  border-radius: 20px; /* Optional rounded corners */
   padding: 16px; /* Add space inside */
 }
+
 
