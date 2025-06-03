@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Sections_img_txt(props) {
   const section_content = props.section_content;
   console.log(section_content);
@@ -16,9 +17,10 @@ function Sections_img_txt(props) {
                 {content.h3}
               </h3>
               <p className="text-lg text-gray-600 mb-5 md:text-xl">{content.p}</p>
+              <Link to={content.add}>
               <button className="seeker-button startbtn bg-green-500 transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-125  text-white py-2 px-5 rounded-full cursor-pointer text-lg md:text-2xl">
                 {content.button}
-              </button>
+              </button></Link>
             </div>
             <div className="seeker-image flex-1 text-center w-[60%] md:w-full h-40 md:h-64">
               <img
@@ -43,10 +45,10 @@ function Sections_img_txt(props) {
               </h3>
               <p className="text-lg text-gray-600 mb-5 md:text-xl">
                 {content.p}
-              </p>
+              </p><Link to={content.add}>
               <button className="employer-button startbtn bg-green-500 transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-125  text-white py-2 px-5 rounded-full cursor-pointer text-xl md:text-3xl">
                 {content.button}
-              </button>
+              </button></Link>
             </div>
           </div>
         );

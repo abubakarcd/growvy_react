@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Plans(props) {
   const plans = props.plans;
   return (
@@ -23,9 +25,10 @@ export default function Plans(props) {
                 <p className="text-gray-600 mt-2 max-w-2xl">
                   {plan.top_content.p}
                 </p>
-                <button className="bg-green-500 text-white px-6 py-2 rounded-full font-semibold mt-4">
+                <Link to="/pricing">
+                <button className="bg-green-500 transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-125 text-white px-6 py-2 rounded-full font-semibold mt-4">
                   Plans
-                </button>
+                </button></Link>
               </div>
             </div>
 
@@ -54,10 +57,10 @@ export default function Plans(props) {
                         ))}
                       </ul>
                     </div>
-                    <div className="mt-6">
-                      <button className="bg-green-500 text-white px-4 py-2 rounded-md font-semibold w-full">
+                    <div className="mt-6"><Link to="/">
+                      <button className="bg-green-500 transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-105 text-white px-4 py-2 rounded-md font-semibold w-full">
                         Start Today
-                      </button>
+                      </button></Link>
                     </div>
                   </div>
                 </div>

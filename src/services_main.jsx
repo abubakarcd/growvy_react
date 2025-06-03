@@ -2,6 +2,7 @@ import React from "react";
 import homesec4 from "/homesec4.png";
 import img1 from "/services1.png"
 import img2 from "/services2.png"
+import { Link } from "react-router-dom";
 const ServicesMainSection = () => {
     const sections=[
         {img:img1,h3:"Hiring",p:"Access a vast talent pool to hire the right candidates quickly and affordably."},
@@ -41,10 +42,10 @@ const ServicesMainSection = () => {
               </p>
             </div>
 
-            <div className="mt-4 text-center">
-              <button className="bg-green-500 cursor-pointer hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
+            <div className="mt-4 text-center"><Link to="/pricing">
+              <button className="cursor-pointer bg-green-500 transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-110 text-white font-bold py-2 px-4 rounded-full">
                 Plans
-              </button>
+              </button></Link>
             </div>
           </div>
             ))}

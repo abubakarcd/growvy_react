@@ -11,8 +11,9 @@ export default function Success(){
     h2: "Join Over 10K Users Worldwide !",
     p: ``,
     button: "View Pricing",
+    add:"/pricing"
   };
-  const growvy_pitch2={h2:"Join Growvy's 50M+ Job Seeker Community and Get Hired Faster!",p:"Build your profile, get noticed by top employers and access exclusive job opportunities tailored to your skills. Your next career move starts here!",button:"Sign In"};
+  const growvy_pitch2={h2:"Join Growvy's 50M+ Job Seeker Community and Get Hired Faster!",p:"Build your profile, get noticed by top employers and access exclusive job opportunities tailored to your skills. Your next career move starts here!",button:"Sign In",add:"/pricing"};
     return(
         <>
         <Navbar/>

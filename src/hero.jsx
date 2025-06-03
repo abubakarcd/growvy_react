@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Sections_img_txt from "./section_img_txt";
 import homesec4 from "/homesec4.png";
 import homesec1 from "/homsec1.png";
@@ -6,10 +7,10 @@ import homesec3 from "/homesec3.png";
 
 function Hero(){
   const tosection_img_txt=[
-          {h3:"I'm a Job Seeker!",p:"Looking for job according to my skills and requirements.",button:"Jobs",img:homesec1},
-          {h3:"I'm an Employer!",p:"Looking for talented candidates for my company.",button:"Post a Job",img:homesec2},
-          {h3:"I'm a E-commerce Store!",p:"Looking for potential sales data for sales campaign.",button:"Sales Data",img:homesec3},
-          {h3:"I'm Business!",p:"Looking for CRM or Data resources to boost my business.",button:"Business Plans",img:homesec4}];
+          {h3:"I'm a Job Seeker!",p:"Looking for job according to my skills and requirements.",button:"Jobs",img:homesec1,add:"/jobs"},
+          {h3:"I'm an Employer!",p:"Looking for talented candidates for my company.",button:"Post a Job",img:homesec2,add:"/jobs"},
+          {h3:"I'm a E-commerce Store!",p:"Looking for potential sales data for sales campaign.",button:"Sales Data",img:homesec3,add:"/success"},
+          {h3:"I'm Business!",p:"Looking for CRM or Data resources to boost my business.",button:"Business Plans",img:homesec4,add:"/pricing"}];
     return(
        <>   
        <div className="flex flex-col ml-3 items-center p-3 flex-wrap justify-center md:flex-row md:items-center">
@@ -26,7 +27,8 @@ function Hero(){
           <p className="text-sm   md:text-lg">Scale your company with tailored strategies, market insights, and expert consulting</p>
         </div>
         <div className=" flex w-full md:justify-start md:ml-[15%] ">
-          <button className="startbtn bg-green-500 text-white border-none py-1 px-3 rounded-full font-normal cursor-pointer text-xs transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-125 md:py-2 md:px-4 md:font-bold md:text-sm ">Start Today</button>
+          <Link to="/pricing">
+          <button className="startbtn bg-green-500 text-white border-none py-1 px-3 rounded-full font-normal cursor-pointer text-xs transition-transform duration-300 ease-in-out hover:bg-green-700 hover:scale-125 md:py-2 md:px-4 md:font-bold md:text-sm ">Start Today</button></Link>
         </div>
       </div>
       <div className="graphic flex-1 flex flex-col items-center mt-4 bg-[url('/arrow.png')] bg-contain bg-no-repeat bg-center-top bg-center min-h-[100px] ml-0 w-full md:mt-0 md:h-[400px] md:justify-center">

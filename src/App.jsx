@@ -4,10 +4,12 @@ import Services from "./services";
 import Jobs from "./jobs.jsx";
 import Success from "./success.jsx";
 import Pricing from "./pricing.jsx";
+import ScrollToTop from "./scroll_top.jsx";
 
 function App() {
   return (
     <Router basename="/growvy_react">
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />

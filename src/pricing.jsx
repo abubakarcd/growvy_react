@@ -160,6 +160,7 @@ const tolftimg_rgttxt = {
     button: "Schedule Call Now",
     p: "Join over 10k Users Worldwide. Start Scheduling in less than 1 minute.",
     img: call,
+    add:"/"
   };
 
 export default function Pricing() {
