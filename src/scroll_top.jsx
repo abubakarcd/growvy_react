@@ -1,4 +1,4 @@
-// src/components/ScrollToTop.jsx
+//For components, when they are opened they should start from top.
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

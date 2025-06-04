@@ -1,3 +1,4 @@
+//Services main page where other components are rendered.
 import GrowvyPitch from "./join_communtiy";
 import Lftimg_RgtTxt from "./lftimg_rgttxt";
 import Navbar from "./navbar";

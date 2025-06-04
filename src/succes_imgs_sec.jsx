@@ -1,4 +1,4 @@
-import React from 'react';
+//Success portion image section.
 import echonetLogo from '/echonet.png'; 
 import circularELogo from '/easypay.png'; 
 import hummingbirdLogo from '/sparrow.png';

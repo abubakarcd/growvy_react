@@ -1,3 +1,4 @@
+//success section where other components are called
 import Footer from "./footer";
 import GrowvyPitchWithImage from "./img_arrow";
 import GrowvyPitch from "./join_communtiy";

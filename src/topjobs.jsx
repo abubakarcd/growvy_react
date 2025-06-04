@@ -1,3 +1,4 @@
+//Top jobs section in jobs.
 import { Link } from "react-router-dom";
 
 function TopJobs() {
@@ -16,7 +17,7 @@ function TopJobs() {
     "Delivery Man",
     "Urdu / English Call Center Agent",
     "Morning Shift Jobs for Women",
-    "Accountant"
+    "Accountant",
   ];
 
   return (
@@ -28,14 +29,15 @@ function TopJobs() {
             key={index}
             className="flex items-center flex-col md:flex-row md:justify-between  rounded-full border border-gray-300 p-2"
           >
-            <div className="font-semibold">{job}</div><Link to="/pricing">
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none cursor-pointer focus:shadow-outline">
-              Apply Now
-            </button></Link>
+            <div className="font-semibold">{job}</div>
+            <Link to="/pricing">
+              <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none cursor-pointer focus:shadow-outline">
+                Apply Now
+              </button>
+            </Link>
           </div>
         ))}
       </div>
-   
     </div>
   );
 }

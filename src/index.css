@@ -1,16 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap");
 @import "tailwindcss";
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   background: white;
   color: black;
 }
-.logo{
-  font-family: 'Parisienne', cursive; 
+.logo {
+  font-family: "Parisienne", cursive;
 }
 .gradient-border {
   border: 2px solid transparent;
@@ -19,5 +18,3 @@ body {
   border-radius: 20px; /* Optional rounded corners */
   padding: 16px; /* Add space inside */
 }
-
-

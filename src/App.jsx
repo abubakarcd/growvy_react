@@ -9,13 +9,13 @@ import ScrollToTop from "./scroll_top.jsx";
 function App() {
   return (
     <Router basename="/growvy_react">
-      <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/success" element={<Success />} />
-         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
     </Router>
   );
